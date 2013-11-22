@@ -27,9 +27,9 @@ body {
 
 <div id="wrapper">
 
-    <div id="header"><img src="http://mashica.com/bis.png"  usemap="#homap">
+    <div id="header"><img src="/bis.png"  usemap="#homap">
         <map name="homap">
-              <area shape="rect" coords="0,0,495,200" href="http://mashica.net/" />
+              <!--<area shape="rect" coords="0,0,495,200" href="http://mashica.net/" />-->
               <area shape="rect" coords="0,200,495,397" href="http://www.spr-msh.com/go/" />
         </map>
     </div>
