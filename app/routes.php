@@ -1,23 +1,26 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the Closure to execute when that URI is requested.
-|
-*/
-
-
 
 // Show the placeholder in the homepage.
 Route::get('/', function()
 {
 	return View::make('mashica');
 });
+
+
+
+
+// Lista de atletas activas de Mashica Sport
+Route::get('atletas', function(){
+	
+	$users = User::where('isactive','=',1)->orderBy('name')->get();
+	//->where('name','=','Maritza')
+	//return View::make('athletelist.zonabici')->with('users', $users);
+	return View::make('athletelist.atletas')->with('users', $users);
+});
+
+
+
 
 
 
