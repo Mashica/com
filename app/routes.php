@@ -8,6 +8,13 @@ Route::get('/', function()
 });
 
 
+// Show the placeholder in the homepage.
+Route::get('/zonabici', function()
+{
+	return View::make('zonabici');
+});
+
+
 
 
 // Lista de atletas activas de Mashica Sport
