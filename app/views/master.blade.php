@@ -4,7 +4,7 @@
 <style>
 * { margin: 0;
     border: 0;
-    font: 11px/14px Verdana, Arial, Helvetica, sans-serif;
+    font: 15px/15px Verdana, Arial, Helvetica, sans-serif;
     color:#333;
     }
 body {

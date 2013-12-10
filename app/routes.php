@@ -23,12 +23,24 @@ Route::get('atletas', function(){
 	$users = User::where('isactive','=',1)->orderBy('name')->get();
 	//->where('name','=','Maritza')
 	//return View::make('athletelist.zonabici')->with('users', $users);
-	return View::make('athletelist.atletas')->with('users', $users);
+	return View::make('athletelist.atletas')->with(array(
+		'users'=> $users,
+		'atype'=> ''
+		));
 });
 
 
-
-
+// Lista de atletas activas de Mashica Sport
+Route::get('exatletas', function(){
+	
+	$users = User::where('isactive','=',0)->orderBy('name')->get();
+	//->where('name','=','Maritza')
+	//return View::make('athletelist.zonabici')->with('users', $users);
+	return View::make('athletelist.atletas')->with(array(
+		'users'=> $users,
+		'atype'=> 'ex'
+		));
+});
 
 
 

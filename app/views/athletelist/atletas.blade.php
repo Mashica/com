@@ -2,7 +2,16 @@
 
 
 @section('header')
-    Athlete List
+	@if($atype == 'ex')
+
+		<h1>Ex-Athlete List</h1><br>[<a href="/atletas">mostrar atletas Mashica actuales</a>]
+		
+
+	@else
+
+		<h1>Athlete List</h1><br>[<a href="/exatletas">mostrar atletas Mashica anteriores</a>]
+		
+	@endif
 
 @stop
 

@@ -5,7 +5,7 @@
 * { margin: 0; 
     /*padding: 0;*/ 
     border: 0;
-    font: 11px/14px Verdana, Arial, Helvetica, sans-serif;
+    font: 14px/14px Verdana, Arial, Helvetica, sans-serif;
     background-color:#311e22;
     }
 body {

@@ -4,7 +4,7 @@
 <style>
 * { margin: 0;
     border: 0;
-    font: 11px/14px Verdana, Arial, Helvetica, sans-serif;
+    font: 13px/16px Verdana, Arial, Helvetica, sans-serif;
     color:#333;
     }
 body {
@@ -15,6 +15,12 @@ body {
    /*background-color:#311e22;*/
    background-color:#eee;
     }
+a {
+    color:#666;
+}
+h1 {
+    font-weight: bold;
+}
 #wrapper {
     text-align: left;
     }
