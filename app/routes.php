@@ -20,7 +20,7 @@ Route::get('/zonabici', function()
 // Lista de atletas activas de Mashica Sport
 Route::get('atletas', function(){
 	
-	$users = User::where('isactive','=',1)->orderBy('name')->get();
+	$users = User::where('isactive','=',1)->orderBy('name')->orderBy('lastname1')->get();
 	//->where('name','=','Maritza')
 	//return View::make('athletelist.zonabici')->with('users', $users);
 	return View::make('athletelist.atletas')->with(array(
@@ -33,7 +33,7 @@ Route::get('atletas', function(){
 // Lista de atletas activas de Mashica Sport
 Route::get('exatletas', function(){
 	
-	$users = User::where('isactive','=',0)->orderBy('name')->get();
+	$users = User::where('isactive','=',0)->orderBy('name')->orderBy('lastname1')->get();
 	//->where('name','=','Maritza')
 	//return View::make('athletelist.zonabici')->with('users', $users);
 	return View::make('athletelist.atletas')->with(array(
