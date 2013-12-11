@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>ZonaBici</title>
         <meta name="description" content="ZonaBici. La mejor tienda de bicicletas en Oaxaca.">
-        <link rel="stylesheet" href="/zonabici_style.css">
+        <link rel="stylesheet" href="/style/zonabici_style.css">
         <!-- <script src="http://laravel.com/js/vendor/modernizr-2.6.2.min.js"></script> -->
     </head>
  
@@ -28,10 +28,12 @@
     <section class="hero">
         <div class="container">
             <h1>
-                <span class="line-one">El <strong>mejor recurso</strong> para ciclismo en Oaxaca.</span>
-                <span class="line-two">Decir algo más. No sé qué cosa, pero algo.</span>
+                <span class="line-one">Tu mejor opci&oacute;n en Oaxaca.</span>
+                <span class="line-two">CENTRO DE SERVICIO ESPECIALIZADO</span>
+                <span class="line-three">ASESORES DE VENTA CAPACITADOS</span>
+                <span class="line-four">BIKE RENTALS</span>
+                <span class="line-five">FIT STUDIO</span>
             </h1>
-            <!-- <a href="/docs/quick" class="call-button">Five Minute Quickstart</a> -->
         </div>
     </section>
 
@@ -54,38 +56,32 @@
             <div class="clearfix"></div>
         </div>
     </section>
-<!-- 
+
     <section class="partners">
         <div class="container">
             <div class="friend-box">
-                <div class="friend-logo">
-                    <a href="http://www.specialized.com/mx/es-mx/home/" title="Specialized Bicycle Components"><img src="/img/specialized.png"></a>
-                </div>
                 <div class="friend-caption">
-                    asdfasdf
+                    En esclusiva:
+                </div>
+                <div class="friend-logo">
+                    <a href="http://www.giant-bicycles.com/es-mx/" title="Bicis Giant"><img src="/img/zonabici/logo-giant.png"></a>
+                    <a href="http://www.santacruzbicycles.com/es" title="Santa Cruz Bicycles"><img src="/img/zonabici/logo-santacruz.png"></a>
+                    <a href="http://www.scott-sports.com/us/es/" title="SCOTT Sports"><img src="/img/zonabici/logo-scott.png"></a>
+                    <a href="http://www.specialized.com/mx/es-mx/home/" title="Specialized Bicycle Components"><img src="/img/zonabici/logo-specialized.png"></a>
+                    <a href="http://www.trekbikes.com/mx/es/" title="Trek Bicycles"><img src="/img/zonabici/logo-trek.png"></a>
                 </div>
             </div>
             <div class="clearfix"></div>
         </div>
     </section>
 
- -->
+
 
     <footer>
         <div class="container">
-            <a href="http://zonabici.com.mx/" title="ZonaBici" class="logo"><img src="/img/platogrande.png" alt="ZonaBici"></a>
+            <a href="http://zonabici.com.mx/" title="ZonaBici" class="logo"><img src="/img/zonabici/platogrande.png" alt="ZonaBici"></a>
             
-            <!-- <nav class="menu">
-                <ul>
-                    <li><a href="http://laravel.com/" title="Welcome">Welcome</a></li>
-                    <li><a href="http://laravel.com/docs" title="Documentation">Documentation</a></li>
-                    <li><a href="http://laravel.com/api" title="Laravel Framework API">API</a></li>
-                    <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
-                    <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
-                    <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
-                </ul>
-            </nav> -->
-            <p class="copyright">Copyright &copy; 2013 ZonaBici. <!-- Producido por <a href="http://mashica.com/" title="Sparafucile&#92;Mashica">SPR&#92;MSH</a>. --></p>
+            <p class="copyright">Copyright &copy; 2013 ZonaBici. Una producci&oacute;n <a href="http://mashica.com/" title="Mashica">MASHICA</a>.</p>
         </div>
     </footer>
 

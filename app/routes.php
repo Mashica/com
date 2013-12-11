@@ -8,10 +8,16 @@ Route::get('/', function()
 });
 
 
-// Show the placeholder in the homepage.
+// ZonaBici page
 Route::get('/zonabici', function()
 {
 	return View::make('zonabici');
+});
+
+// primer ladino pedido
+Route::get('/ladino', function()
+{
+	return View::make('ladino');
 });
 
 
