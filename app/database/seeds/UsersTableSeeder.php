@@ -763,8 +763,8 @@ class UsersTableSeeder extends Seeder {
 			'state' => 'Oaxaca',
 			'country' => 'MX',
 			'birthday' => '1976-09-19',
-			'isactive' => 1,
-			'istraining' => 1,
+			'isactive' => 0,
+			'istraining' => 0,
 			'created_at' => $rightnow,
 			'updated_at' => $rightnow
 		));
@@ -784,8 +784,8 @@ class UsersTableSeeder extends Seeder {
 			'state' => 'Oaxaca',
 			'country' => 'MX',
 			'birthday' => '1976-09-19',
-			'isactive' => 1,
-			'istraining' => 1,
+			'isactive' => 0,
+			'istraining' => 0,
 			'created_at' => $rightnow,
 			'updated_at' => $rightnow
 		));

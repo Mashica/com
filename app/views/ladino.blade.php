@@ -33,7 +33,7 @@ td {
 	<h4></h4>
 	<table>
 		<tr>
-			<td>Jersey y Short<br><a href="/img/ladino1/jersey.short.ai">ai</a> | <a href="/img/ladino1/jersey.short.pdf">pdf</a>
+			<td>Jersey y Short<br><a href="/img/ladino/jersey.short.ai">ai</a> | <a href="/img/ladino/jersey.short.pdf">pdf</a>
 				<p># Jersey<br>
 					XS:   <span class="cantidad">1</span><br>
 					S:    <span class="cantidad">5</span><br>
@@ -52,10 +52,10 @@ td {
 					XXL:  <span class="cantidad">0</span><br>
 					XXXL: <span class="cantidad">0</span><br>
 					Total: <span class="total">26</span></p></td>
-			<td><img src="/img/ladino1/jersey.short.png"></td>
+			<td><img src="/img/ladino/jersey.short.png"></td>
 		</tr>
 		<tr>
-			<td>Chaleco<br><a href="/img/ladino1/chaleco.pdf">pdf</a>
+			<td>Chaleco<br><a href="/img/ladino/chaleco.pdf">pdf</a>
 				<p>#<br>
 					XS:   <span class="cantidad">0</span><br>
 					S:    <span class="cantidad">2</span><br>
@@ -65,10 +65,10 @@ td {
 					XXL:  <span class="cantidad">1</span><br>
 					XXXL: <span class="cantidad">0</span><br>
 					Total: <span class="total">15</span></p></td>
-			<td><img src="/img/ladino1/chaleco.png"></td>
+			<td><img src="/img/ladino/chaleco.png"></td>
 		</tr>
 		<tr>
-			<td>Mangas<br><a href="/img/ladino1/mangas.pdf">pdf</a>
+			<td>Mangas<br><a href="/img/ladino/mangas.pdf">pdf</a>
 				<p>#<br>
 					XS:   <span class="cantidad"></span><br>
 					S:    <span class="cantidad">2</span><br>
@@ -76,10 +76,10 @@ td {
 					L:    <span class="cantidad">5</span><br>
 					XL:   <span class="cantidad">1</span><br>
 					Total: <span class="total">13</span></p></td>
-			<td><img src="/img/ladino1/mangas.png"></td>
+			<td><img src="/img/ladino/mangas.png"></td>
 		</tr>
 		<tr>
-			<td>Pierneras<br><a href="/img/ladino1/pierneras.pdf">pdf</a>
+			<td>Pierneras<br><a href="/img/ladino/pierneras.pdf">pdf</a>
 				<p>#<br>
 					XS:   <span class="cantidad"></span><br>
 					S:    <span class="cantidad">1</span><br>
@@ -87,22 +87,22 @@ td {
 					L:    <span class="cantidad">5</span><br>
 					XL:   <span class="cantidad">2</span><br>
 					Total: <span class="total">13</span></p></td>
-			<td><img src="/img/ladino1/pierneras.png"></td>
+			<td><img src="/img/ladino/pierneras.png"></td>
 		</tr>
 		<tr>
-			<td>Guantes<br><a href="/img/ladino1/guantes.pdf">pdf</a>
+			<td>Guantes<br><a href="/img/ladino/guantes.pdf">pdf</a>
 				<p>#<br>
 					S:    <span class="cantidad">2</span><br>
 					M:    <span class="cantidad">4</span><br>
 					L:    <span class="cantidad">6</span><br>
 					Total: <span class="total">12</span></p></td>
-			<td><img src="/img/ladino1/guantes.png"></td>
+			<td><img src="/img/ladino/guantes.png"></td>
 		</tr>
 		<tr>
-			<td>Calcetas<br><a href="/img/ladino1/calcetas.pdf">pdf</a>
+			<td>Calcetas<br><a href="/img/ladino/calcetas.pdf">pdf</a>
 				<p>#<br>
 					Total: <span class="total">30+?</span></p></td>
-			<td><img src="/img/ladino1/calcetas.png"></td>
+			<td><img src="/img/ladino/calcetas.png"></td>
 		</tr>
  	</table>
 
