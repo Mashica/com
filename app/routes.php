@@ -21,6 +21,15 @@ Route::get('/ladino', function()
 });
 
 
+// Calendarios
+Route::get('/cal2014', function()
+{
+	return View::make('cal2014.cal2014');
+});
+
+
+
+
 
 
 // Lista de atletas activas de Mashica Sport
