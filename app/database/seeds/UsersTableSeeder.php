@@ -112,8 +112,8 @@ class UsersTableSeeder extends Seeder {
 			'state' => 'Oaxaca',
 			'country' => 'MX',
 			'birthday' => '1975-09-17',
-			'isactive' => 0,
-			'istraining' => 0,
+			'isactive' => 1,
+			'istraining' => 1,
 			'created_at' => $rightnow,
 			'updated_at' => $rightnow
 		));
@@ -574,8 +574,8 @@ class UsersTableSeeder extends Seeder {
 			'state' => 'Oaxaca',
 			'country' => 'MX',
 			'birthday' => '1971-12-02',
-			'isactive' => 0,
-			'istraining' => 0,
+			'isactive' => 1,
+			'istraining' => 1,
 			'created_at' => $rightnow,
 			'updated_at' => $rightnow
 		));
@@ -721,8 +721,8 @@ class UsersTableSeeder extends Seeder {
 			'state' => 'Oaxaca',
 			'country' => 'MX',
 			'birthday' => '1976-09-19',
-			'isactive' => 1,
-			'istraining' => 1,
+			'isactive' => 0,
+			'istraining' => 0,
 			'created_at' => $rightnow,
 			'updated_at' => $rightnow
 		));
@@ -798,6 +798,90 @@ class UsersTableSeeder extends Seeder {
 			'name' => 'René Eduardo',
 			'lastname1' => 'Carrasco',
 			'lastname2' => 'Cruz',
+			'email2' => '',
+			'address' => '',
+			'colonia' => '',
+			'city' => 'Oaxaca',
+			'state' => 'Oaxaca',
+			'country' => 'MX',
+			'birthday' => '1976-09-19',
+			'isactive' => 1,
+			'istraining' => 1,
+			'created_at' => $rightnow,
+			'updated_at' => $rightnow
+		));
+
+		User::create(
+			array(
+			'login' => 'migueltiktak',
+			'email' => 'mpgoaxaca@gmail.com',
+			'password' => Hash::make('miguetika'),
+			'name' => 'Miguel',
+			'lastname1' => 'Pérez',
+			'lastname2' => 'García',
+			'email2' => '',
+			'address' => '',
+			'colonia' => '',
+			'city' => 'Oaxaca',
+			'state' => 'Oaxaca',
+			'country' => 'MX',
+			'birthday' => '1975-10-23',
+			'isactive' => 1,
+			'istraining' => 1,
+			'created_at' => $rightnow,
+			'updated_at' => $rightnow
+		));
+
+		User::create(
+			array(
+			'login' => 'manuarrazola',
+			'email' => 'dark-curse@hotmail.com',
+			'password' => Hash::make('manuarrazola'),
+			'name' => 'Manuel',
+			'lastname1' => 'Arrazola',
+			'lastname2' => '',
+			'email2' => '',
+			'address' => '',
+			'colonia' => '',
+			'city' => 'Oaxaca',
+			'state' => 'Oaxaca',
+			'country' => 'MX',
+			'birthday' => '1976-09-19',
+			'isactive' => 1,
+			'istraining' => 1,
+			'created_at' => $rightnow,
+			'updated_at' => $rightnow
+		));
+
+		User::create(
+			array(
+			'login' => 'melida',
+			'email' => 'memagaal28@hotmail.com',
+			'password' => Hash::make('memagaal28'),
+			'name' => 'Mélida del Carmen',
+			'lastname1' => 'Magaña',
+			'lastname2' => 'Álvarez',
+			'email2' => '',
+			'address' => '',
+			'colonia' => '',
+			'city' => 'Oaxaca',
+			'state' => 'Oaxaca',
+			'country' => 'MX',
+			'birthday' => '1974-08-28',
+			'isactive' => 1,
+			'istraining' => 1,
+			'created_at' => $rightnow,
+			'updated_at' => $rightnow
+		));
+
+		User::create(
+			array(
+			'login' => 'victorcastillejos',
+			'email' => 'victorscasti@hotmail.com',
+			'password' => Hash::make('victorscasti'),
+			'name' => 'Victor Enrique',
+			'lastname1' => 'Castillejos',
+			'lastname2' => 'Escobar',
 			'email2' => '',
 			'address' => '',
 			'colonia' => '',
