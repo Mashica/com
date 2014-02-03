@@ -28,9 +28,9 @@ $app->redirectIfTrailingSlash();
 
 $env = $app->detectEnvironment(array(
 
-	'com.mashica.oax' => array('com.mashica.oax'),
-	'mashica.com' => array('mashica.com'),
-
+    'local' => array('cow'), // Change this to your local machine hostname.
+    'staging' => array('horse'),
+    'production' => array('MashicaLinux'),
 
 ));
 
