@@ -29,6 +29,14 @@ Route::get('/cal2014', function()
 
 
 
+// Dev view experiments
+Route::get('/dev', function()
+{
+	return View::make('dev.dev');
+});
+
+
+
 
 
 
