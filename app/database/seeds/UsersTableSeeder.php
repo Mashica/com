@@ -322,8 +322,8 @@ class UsersTableSeeder extends Seeder {
 			'state' => 'Oaxaca',
 			'country' => 'MX',
 			'birthday' => '1982-08-20',
-			'isactive' => 1,
-			'istraining' => 1,
+			'isactive' => 0,
+			'istraining' => 0,
 			'created_at' => $rightnow,
 			'updated_at' => $rightnow
 		));
@@ -406,8 +406,8 @@ class UsersTableSeeder extends Seeder {
 			'state' => 'Oaxaca',
 			'country' => 'MX',
 			'birthday' => '1972-03-04',
-			'isactive' => 1,
-			'istraining' => 1,
+			'isactive' => 0,
+			'istraining' => 0,
 			'created_at' => $rightnow,
 			'updated_at' => $rightnow
 		));
@@ -700,8 +700,8 @@ class UsersTableSeeder extends Seeder {
 			'state' => 'Oaxaca',
 			'country' => 'MX',
 			'birthday' => '1976-09-19',
-			'isactive' => 1,
-			'istraining' => 1,
+			'isactive' => 0,
+			'istraining' => 0,
 			'created_at' => $rightnow,
 			'updated_at' => $rightnow
 		));
@@ -805,8 +805,8 @@ class UsersTableSeeder extends Seeder {
 			'state' => 'Oaxaca',
 			'country' => 'MX',
 			'birthday' => '1976-09-19',
-			'isactive' => 1,
-			'istraining' => 1,
+			'isactive' => 0,
+			'istraining' => 0,
 			'created_at' => $rightnow,
 			'updated_at' => $rightnow
 		));
@@ -882,6 +882,48 @@ class UsersTableSeeder extends Seeder {
 			'name' => 'Victor Enrique',
 			'lastname1' => 'Castillejos',
 			'lastname2' => 'Escobar',
+			'email2' => '',
+			'address' => '',
+			'colonia' => '',
+			'city' => 'Oaxaca',
+			'state' => 'Oaxaca',
+			'country' => 'MX',
+			'birthday' => '1976-09-19',
+			'isactive' => 1,
+			'istraining' => 1,
+			'created_at' => $rightnow,
+			'updated_at' => $rightnow
+		));
+
+		User::create(
+			array(
+			'login' => 'leonardoguadalupe',
+			'email' => 'leonardoguadalupe@hotmail.com',
+			'password' => Hash::make('leonardoguadalupe'),
+			'name' => 'Leonardo Guadalupe',
+			'lastname1' => 'Ignacio',
+			'lastname2' => '',
+			'email2' => '',
+			'address' => '',
+			'colonia' => '',
+			'city' => 'Oaxaca',
+			'state' => 'Oaxaca',
+			'country' => 'MX',
+			'birthday' => '1976-09-19',
+			'isactive' => 1,
+			'istraining' => 1,
+			'created_at' => $rightnow,
+			'updated_at' => $rightnow
+		));
+
+		User::create(
+			array(
+			'login' => 'carloshernandezest',
+			'email' => 'carloshernandezest@hotmail.com',
+			'password' => Hash::make('carloshernandezest'),
+			'name' => 'Carlos',
+			'lastname1' => 'Hernandez',
+			'lastname2' => 'Estrada',
 			'email2' => '',
 			'address' => '',
 			'colonia' => '',
